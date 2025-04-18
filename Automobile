@@ -1,0 +1,82 @@
+print("welcome to our website")
+a=str(input("which bike do you want?"))
+if(a=="hero"):
+  print("it is available in our showroom")
+  b=int(input("how much engine cc do you want?"))
+  if(b==150):
+      print("it is available in hero company")
+      c=str(input("which color do you want in this model"))
+      if(c=="green" or c=="black"):
+         print(c,"is available in this model ")
+      else:  
+         print(" it is not available")         
+  elif(b==100):
+      print("it is available in hero company")
+      c=str(input("which color do you want in this model"))
+      if(c=="white"):
+         print(c,"is available in this model ")
+      else:  
+         print(" it is not available")
+  else:
+      print("it is not available")
+elif(a=="pulsar"):
+  print("it is available in our showroom")
+  b=int(input("how much engine cc do you want ?"))
+  if(b== 200):
+      print("it is available in pulsar company")
+      c=str(input("which color do you want in this model"))
+      if(c=="red" or c=="blue"):
+         print(c,"is available in this model ")
+      else:  
+         print(" it is not available")
+  elif(b== 250):
+      print("it is available in pulsar company")
+      c=str(input("which color do you want in this model"))
+      if(c=="yellow"):
+         print(c,"is available in this model ")
+      else:  
+         print(" it is not available")
+  else:
+       print("it is not available")
+elif(a=="royal enfeild"):
+  print("it is available in our showroom")
+  b=int(input("how much engine cc do you want ?"))
+  if(b== 500):
+      print("it is available in royal enfeild company")
+      c=str(input("which color do you want in this model"))
+      if(c=="bootle green"):
+         print(c,"is available in this model ")
+         print("NOTE:it is a diesel vechile")
+      else:  
+         print(" it is not available")
+  elif(b== 650):
+      print("it is available in royal enfeild company")
+      c=str(input("which color do you want in this model"))
+      if(c=="chrome"):
+         print(c,"is available in this model ")
+      else:  
+         print(" it is not available")
+  else:
+       print("it is not available")
+elif(a=="ktm"):
+  print("it is available in our showroom")
+  b=int(input("how much engine cc do you want ?"))
+  if(b== 390):
+      print("it is available in ktm company")
+      c=str(input("which color do you want in this model"))
+      if(c=="orange" or "black"):
+         print(c,"is available in this model ")
+      else:  
+         print(" it is not available")
+  elif(b== 210):
+      print("it is available in  company")
+      c=str(input("which color do you want in this model"))
+      if(c=="pink" or c=="violet" or c=="red"):
+         print(c,"is available in this model ")
+         print("red color bike takes time")
+      else:  
+         print(" it is not available")
+  else:
+       print("it is not available")
+else:
+   print("it is not available")
