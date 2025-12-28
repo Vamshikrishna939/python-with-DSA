@@ -1,0 +1,8 @@
+pizza = int(input("enter the no of pizza"))
+puff = int(input("enter the no of puff"))
+cool_drink = int(input("enter the no of cool drink"))
+print(f"no.of pizza :{pizza}")
+print(f"no.of puff :{puff}")
+print(f"no.of pizza :{cool_drink}")
+total_prize = ((pizza*100)+(puff*20)+(cool_drink*10))
+print(total_prize)
